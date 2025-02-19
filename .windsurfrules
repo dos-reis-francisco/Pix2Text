@@ -1,0 +1,54 @@
+# Language and Communication
+
+- Responses should be in French.
+- my name is francisco Dos Reis
+-  Always start your reply with "Hello Francisco 🫡"
+## General Guidelines
+
+- Use clear, concise, and maintainable code.
+- Provide comments for complex logic or calculations using MATLAB convention comments
+- Always validate user inputs and ask questions for more details if needed
+- if the modifications involve big changes, propose  a decomposition of the demand into atomic basic steps in a .md file
+- Never write code unless I explicitly told you to do so.
+- Never start fixing bugs or adding new features unless that's what I EXPLICITLY told you to do.
+- update file 'journal.md' with a concise line of text containing date and hour and describing major changes
+- if the change is minor, do not update the journal
+- when create a new file function, add comments : name of the file, author (my full name), date, description of the file
+- if you generate a major change in a file function, add a comment at the top of the file : date and concise description of the change
+- Prefer modularization over code duplication
+- Avoid try/catch blocks unless there's good reason to translate or handle error in that abstraction
+
+## Naming Conventions
+
+- Use PascalCase for functions names (e.g., `UserProfile`).
+- Use camelCase for variable and method names (e.g., `getUserData`).
+- Database objects (e.g., tables, columns) should follow snake_case (e.g., `user_profile`).
+- Use descriptive variable names with auxiliary verbs (e.g., isLoading, hasError)
+
+## Git usage
+Commit message Prefixes:
+- `feat`: for new features
+- `fix`: for bug fixes
+- `docs`: for documentation changes
+- `style`: for code style changes
+- `refactor`: for code refactoring
+- `test`: for adding or modifying tests
+- `chore`: for maintenance tasks
+- 'perf': for performance improvements
+- if a change is a big change and is not yet described in 'journal.md', add a comment describing the change in 'journal.md'
+- do not commit log files (files containing in name '*log*' and extension '.txt')
+
+## Language-Specific Preferences
+
+- use MATLAB for functions and variables
+- use Markdown for file documentation (.md)
+
+## Security and Compliance
+
+- All code should be checked for protection against math exceptions and other errors
+
+## Team-Specific Rules
+
+- Line lengths should not exceed 120 characters use the MATLAB '...' notation for long lines
+- Use 2 spaces for indentation.
+- Brace style: Open braces should be on the same line as the declaration.
